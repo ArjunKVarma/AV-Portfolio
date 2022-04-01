@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" style="overflow-x: hidden;">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="AV-icon.png" type="image/icon type"> 
+  <title>Preview</title>                                                    
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+
+
+<body style="overflow-x: hidden;
+color: rgb(231, 231, 231);">
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: rgba(22, 22, 22, 0.788);">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AV<span class=".nav-designs">Designs</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#product">Demo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <section class="home-section page-section " style="text-align: center; padding-bottom: 1em;" id="home">
+    <div class="container d-flex justify-content-center align items-center " style="color: aliceblue;">
+      <div class="card " style="margin-top: 5em; margin-bottom: 2em; border-radius: 50%; border: 0;">
+        <img src="AV-Logo.png" alt="image" style="width: 15rem; height: 15rem;border-radius: 50%;">
+      </div>
+      
+    </div>
+    <h1>AV <span style="font-size: large;">Designs</span></h1>
+      <h5>Simple Web portfolio pages</h5>
+  </section>
+
+
+
+
+
+
+  <section class="product-section page-section" id="product" style="padding-top: 2em; background: rgb(29, 29, 29);
+  text-align: center;">
+    <h1>Products-Demo</h1>
+    <h5>Simple Fully responsive design</h5>
+    <div class="container">
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <a href="Dark/index.html">
+            <img class="card-img-top" src="Portfolio - Design-Dark.png" alt="image">
+          </a>
+        </div>       
+        <div class="card" style="width: 18rem;">
+          <a href="White/index.html">
+            <img class="card-img-top" src="Portfolio - Design-White.png" alt="image">
+          </a>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <a href="Standard/index.html">
+            <img class="card-img-top" src="Portfolio - Design.png" alt="image">
+          </a>
+        </div>
+      </div>
+    </div><hr>
+    <h1 style="padding-bottom: 1rem;">Screenshots</h1>
+    <div class="container">
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Project-Dark.jpg" alt="image">
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="About-Dark.jpg" alt=" image ">
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Why-Dark.jpg" alt=" image ">
+        </div>
+      </div>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Services-White.jpg" alt="image">
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="About-White.jpg" alt=" image ">
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="Reviews-White.jpg" alt=" image ">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  
+
+
+
+
+  <section class="contact page-section" id="contact">
+    <div class="container">
+      <h1>Contact</h1>
+      <h6>Contact us for any queries or suggesions</h6>
+      <!-- Enter action for form to integrate to your project database -->
+      <form id="contact-form" >
+        <div class="row">
+          <div class="form-group col-md-12">
+            <input name="name" required type="text" class="form-control" id="name" placeholder="First-name">
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="form-group col-md-12">
+            <input name="email" required type="email" class="form-control" id="email" placeholder="E-mail">
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" class="form-control" id="message" rows="3" placeholder="Enter-Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+    </div>
+  </section>
+
+
+
+  <footer>
+    <p>All Rights Reserved ©<br>
+      Web Design @AV Designs</p>
+    
+  </footer>
+  <script>
+    $("#contact-form").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbyfc3Dg1kyHvNQUqfv7R15DQz9Q4d2N7UfM704P1rwqTq00UDZtY5eYtzKzDmbKsc5Xhg/exec",
+            data:$("#contact-form").serialize(),
+            method:"post",
+            success:function (response){
+                window.location.reload()
+            },
+            error:function (err){
+                alert("Something Error")
+
+            }
+        })
+    })
+</script>
+
+</body>
+</html>

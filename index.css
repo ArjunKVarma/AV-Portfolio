@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Inter:wght@100;500;700;800&family=Oswald:wght@400;500&display=swap');
+
+
+
+
+.navbar-brand span{
+    color: rgba(192, 189, 189, 1);
+    font-size: medium;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    text-align: center;
+    }
+
+    .navbar-nav li a {
+        font-family: 'Inter', sans-serif;
+        font-size: small;
+    }
+    
+
+
+.home-section{
+    background: repeating-linear-gradient( 45deg, rgb(22, 22, 22), black 40px, #444 40px, #444 41px );
+    }   
+  
+
+    .product-section > h5{
+        color: rgba(172, 172, 172, 0.37);
+        margin-bottom: 15px;
+    }
+    .product-section > .container > .row{
+        justify-content: center;
+    }
+    .product-section > .container >.row >  .card{
+        padding: 0;
+        transition-duration: 500ms;
+        height: 12em;
+        overflow: hidden;
+        margin-bottom: 2em;
+        border: 5px solid white;
+        border-radius: 0;
+    }
+    .product-section > .container >.row:last-child >  .card{
+        border: 7px solid rgb(0, 0, 0);
+        border-radius: 0;
+    }
+    .product-section > .container >.row > .card > a > img{
+        width: 100%;
+        height: 100%;
+    }
+    .product-section > .container >.row > .card:hover{
+        transition-duration: 200ms;
+        box-shadow: 5px 5px 10px 1px rgba(150, 150, 150, 0.521);
+        transform: translate(-5px, -3px);
+    }
+
+    @media (min-width: 768px) {
+        .product-section > .container >.row > .card{
+            margin-right: 2em;
+            margin-bottom: 2em;
+        }
+        .product-section > h5{
+            margin-bottom: 2em;
+        }
+    }
+
+
+.contact{
+    padding-top: 3em;
+    background: rgb(14, 13, 13);
+    padding-bottom: 2em;
+}
+    .contact > .container > form{
+        text-align: center;
+    }
+    .contact > .container > h1{
+        font-weight: 900;
+        margin-bottom: 0;
+        color: rgb(255, 255, 255);
+    }
+    .contact > .container > h6{
+        margin-bottom: 2em;
+        color: rgba(204, 204, 204, 0.22);
+    }
+    .contact > .container > form >.row > .form-group input{
+        background: #000000;
+        color: rgba(236, 236, 236, 0.836);
+        height: 4em;
+        margin-bottom: 1em;
+        border: #000000;
+    }
+
+    .contact > .container > form >.row > .form-group input::-webkit-outer-spin-button,
+    .contact > .container > form >.row > .form-group input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .contact > .container > form >.row > .form-group input[type=number] {
+        -moz-appearance: textfield;
+    }
+    .contact > .container > form > .form-group textarea{
+        background: #000000;
+        border: #000000;
+        color: rgba(236, 236, 236, 0.836);
+        height: 10em;
+        resize: none;
+        margin-bottom: 1em;
+        
+    }
+
+footer{
+    height: 12em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    text-align: center;
+    background: rgb(39, 39, 39);
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+    footer > p > span{
+        color: rgb(255, 255, 255);
+    }
+    footer  >.social > a > svg{
+        height: 2em;
+        width: 2em;
+    }
+    footer > .social > a{
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
